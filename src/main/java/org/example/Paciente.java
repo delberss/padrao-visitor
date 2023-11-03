@@ -18,7 +18,7 @@ public class Paciente implements Pessoa {
         return doenca;
     }
 
-    public String aceitar(VisitorHospital visitor) {
+    public String aceitar(Visitor visitor) {
         return visitor.interagirComPaciente(this);
     }
 }

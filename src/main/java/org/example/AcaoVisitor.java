@@ -1,6 +1,6 @@
 package org.example;
 
-public class HospitalAcao implements VisitorHospital {
+public class AcaoVisitor implements Visitor {
     public String exibir(Pessoa pessoa) {
         return pessoa.aceitar(this);
     }

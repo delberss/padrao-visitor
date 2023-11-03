@@ -18,7 +18,7 @@ public class Medico implements Pessoa {
         return especialidade;
     }
 
-    public String aceitar(VisitorHospital visitor) {
+    public String aceitar(Visitor visitor) {
         return visitor.interagirComMedico(this);
     }
 }
